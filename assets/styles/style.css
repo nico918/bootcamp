@@ -1,0 +1,33 @@
+/*Universal Selector */
+*{
+  color: red;
+}
+h2{
+  background-color:royalblue;
+
+}
+
+.keigo{
+  background-color: magenta;
+
+}
+.jun{
+font-size: 40px;
+color: green;
+}
+
+#logo-name{
+  text-align: crnter ;
+  font-size: 50px;
+}
+
+
+ol,ul,yasuko{
+background-color: thistle;  
+}
+div p span{
+background-color: coral;
+}
+div hs,div a{
+  background-color: chartreuse;
+}

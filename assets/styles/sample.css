@@ -1,0 +1,35 @@
+/* uiversal */
+*{
+  color: red;
+}
+/* elementselector */
+h2{
+  background-color: teal;
+}
+p{
+ background-color: yellowgreen; 
+}
+a{
+  background-color: yellow;
+}
+.keigo{
+  background-color: magenta;
+}
+.jun{
+  font-size: 40px;;
+  color:green
+}
+/* ID selector */
+#logo-name{
+  text-align: center;
+  font-size: 50px;
+}
+/* ,(and)selector */
+ol,ul,.yasuko{
+  background-color: thistle;
+}
+/* (space)descendant selector */
+div{
+  background-color: coral;
+}
+

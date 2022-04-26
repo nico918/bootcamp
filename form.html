@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Element</title>
+  <link rel="stylesheet" href="assets/styles/style.css">
+
+<style>
+  label{
+    color: red;
+  }
+  h1{
+    background-color: gray;
+    color: white;
+  }
+</style>
+
+
+
+</head>
+<body style="background-color: teal;">
+  <h1>Form Elements</h1>
+  <form action="https://kredo.jp" method="get" style="background-color: aqua;">
+    <label for="fullname">Your Full Name</label>
+    <input type="text" name="fullname" id="fullname"placeholder="Last Name First Name" required minlength="3" maxlength="20"> 
+    <label for="email">Email Address</label>
+    <input type="email" name="email" id="email" placeholder="youremail@yahoo.com"> 
+    <button>send</button>
+    <label for="birthday">Birth Date:</label>
+    <input type="date" name="Birth day" id="birthday">
+    <label for="age">Age:</label>
+    <input type="number" name="age" id="age" placeholder="Above 18" min="18" max="60"> 
+    
+  <div> 
+    <p>Choose your gender:</p>
+      <input type="radio" name="gender" value="male" id="male"> 
+      <label for="female">Male</label>
+      <input type="radio" name="gender" value="female" id="female">
+      <label for="female">Male</label>
+      <input type="radio" name="gender" value="male" id="male"> 
+      <label for="female">LGBT</label>
+    </div>
+    <div>
+     <p>Choose your favoreite food:</p> 
+      <input type="checkbox" name="food" value="sushi" id="sushi">
+     <label for="sushi">sushi</label>
+     <input type="checkbox" name="food" value="curry" id="curry">
+     <label for="curry">Curry</label>
+     <input type="checkbox" name="food" value="ramen" id="ramen" >
+     <label for="ramen">Ramen</label>
+   </div>
+
+   
+
+    <label for="car">Select your car:</label>
+    <select name="car" id="car">
+      <option value="">Select a car</option>
+      <option value="ferrari">Ferrari</option>
+      <option value="mazda">Mazda</option>
+      <option value="ford">Ford</option>
+      <option value="honda">Honda</option>
+    </select>
+
+    <br>
+    <label for="">upload photo:</label>
+    <input type="file" name="photo" id="photo">
+
+    <br>
+     <label for="comment">comments:</label>
+     <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Type your comments here."></textarea>
+     <button type="submit" name="submit">send</button>
+     <input type="submit" name="submit" value="ok">
+     <input type="image" src="assets/image/gar.jpg" width="60px" height="30px">
+
+
+
+
+
+</body>
+</html>

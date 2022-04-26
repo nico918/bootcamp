@@ -1,0 +1,31 @@
+/* table properties */
+
+.table-1{
+  empty-cells:hide ;
+  font-family: sans-serif;
+  font-size: 2em;
+  text-align: right;
+  text-transform: uppercase;
+}
+.table-2
+{
+  border-collapse: collapse;
+}
+.table-3{
+  border-spacing:10px 20px;
+  background: url(../image/gar.jpg) no-repeat center;
+  background-size: cover;
+  color:#ffffff;
+  text-shadow: 2px 2px 2px black;
+  width: 50%;
+}
+.table-3 th{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, .5);
+}
+.table-3 td{
+  font-size: 1.2em;
+  text-align: center;
+
+}

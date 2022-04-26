@@ -1,0 +1,186 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: sans-serif;
+}
+p,a,li{
+  font-family: sans-serif;
+}
+
+/* header section */
+.header{
+   border: 4px solid red; 
+   padding: 20px;
+   width: 80%;
+   margin: 0 auto 2em auto;
+}
+.header h1{
+  /* border: 2px dashed green; */
+  float: left;
+}
+  
+.header .sns{
+  /* border: 2px dashed purple; */
+  float: right;
+  margin-top: 1em;
+  
+}
+.header .sns a{
+  border: 1px solid green;
+  /* display: inline; */
+  display: block;
+  margin-top: 5px;
+  width: 75px;
+}
+
+
+.header p{
+   /* border: 2px dashed black;  */
+  clear: both;
+}
+/* nav */
+.nav{
+border: 4px solid red;
+overflow: auto; 
+width: 80%;
+margin: 0 auto 2em auto;
+padding: 10px 20px;
+}
+.nav img{
+  border: 2px dashed yellow;
+   float: left;
+}
+.nav ul{
+  border:2px dashed green ;
+  float: right;
+}
+.nav ul li{
+  border: 1px solid black;
+  /* display: inline-block; */
+  /* width: 100px */
+  display: inline;
+  margin-left: 20px;
+  margin-top: 1em;
+ } 
+
+.section{
+  border: 4px solid red;
+  overflow: auto;
+}
+.article{
+  border: 2px dashed green;
+  height: 500px;
+  width: 70%;
+  float: left;
+  padding: 20px;
+}
+.article a{
+  background-color: teal;
+  padding: 10px 15px;
+  color: #ffffff;
+   margin-top: 20px ; 
+   margin-bottom: 20px; 
+   display: inline-block 
+
+}
+.article-1{
+  border: 2px solid purple;
+}
+.static{
+  border: 1px solid yellow;
+  width: 100px;
+  position: static;
+  left: 100px;
+}
+.relative{
+  border: 1px solid green;
+  width: 100px;
+  position: relative;
+  left: 150px;
+  top: 50px;
+  background-color: green;
+  z-index: 100;
+}
+.fixed{
+  border: 1px solid tomato;
+  width: 100px;
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  background-color: tomato;
+  z-index: 11;
+}
+.absolute{
+  border: 1px solid blue;
+  width: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color:blue ;
+  z-index: 10;
+}
+.relative-2{
+  border: 2px dashed black;
+  width: 200px;
+  height: 150px;
+  position: relative;
+  background-color: grey;
+  z-index: 101;
+  
+}
+.sidebar{
+  border: 2px dashed blue;
+  height: 500px;
+  width: 30%;
+  float: left;
+  padding: 20px;
+
+}
+.footer{
+  border: 4px solid red; 
+  overflow: auto;
+  text-align: center;
+  padding: 10px 0;
+}
+.footer h4{
+  float: left;
+  width: 33.33%;
+  border: 1px solid black;
+}
+.footer-sns{
+  float: left;
+  width: 33.33%;
+  border: 1px solid black;
+}
+.footer sns{
+  float: left;
+  width: 33.33%; 
+  border: 1px solid black;
+
+}
+.footer a{
+  display: block;
+}
+.footer p{
+  float: left;
+  width: 33.33%;
+  border: 1px solid black;
+}
+/* position properties */
+
+  
+  
+
+/* values=default
+relative=moves 
+fixed=
+absolute= moved based on body  
+used as child position
+
+*/
+
+
+

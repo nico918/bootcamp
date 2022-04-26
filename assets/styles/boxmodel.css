@@ -1,0 +1,152 @@
+/* :reset declaration */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background: salmon;
+  margin: 20px 30px 40px 50px;
+  /* padding: 20px; */
+  /* padding: 20px 30px; */
+  /* padding: 20px 30px 40px; */
+  padding: 20px 30px 40px 50px;
+  width: 60%;
+  /* overflow: auto; */
+  /* overflow: scroll; */
+  overflow: hidden;
+  box-shadow: 3px 3px 8px black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .header h1{
+    background: rgba(134, 28, 28, 0.5);
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header p{
+    margin: 20px 0;
+  }
+  .header a{
+    background: purple;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+  }
+.nav{
+    background:teal;
+    padding: 20px;
+  }
+  .nav img{
+    margin-top: 10px;
+    /* padding: 20px; */
+    background: yellow;
+    padding: 10px;
+    box-shadow: 3px 3px 5px black;
+  }
+  .nav ul{
+    padding-left: 60px;
+  }
+
+.section{
+  background: thistle;
+  padding: 20px ;
+  margin: 10px 0;
+  width: 50%;
+  height: 200px;
+  overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.solid{
+  border: 10px solid tomato;
+  border-width: 5px 10px 15px 20px;
+  border-color: red blue green yellow ;
+  border-style: dashed dotted double solid;
+}
+.dotted{
+  border: 10px dotted teal;
+  border-top: none;
+}
+.dashed{
+  border: 10px dashed crimson;
+  border-right: 5px groove yellow;
+}
+.double{
+  border: 10px double seagreen;
+}
+.groove{
+  border: 10px groove purple;
+}
+.ridge{
+  border: 10px ridge gray;
+}
+.inset{
+  border: 10px inset dodgerblue;
+}
+.outset{
+    border: 10px outset goldenrod;
+  }
+.radius{
+    border: 10px solid black;
+    border-radius: 50px 20px 5px 30px;
+    padding: 20px
+
+  }
+  .circle{
+    border: 5px solid red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    padding: 20px;
+  }
+
+.footer{
+  margin-top: 20px;
+  background: gray;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer sns{
+  border-top: 5px solid white;
+  border-bottom: 8px solid white;
+  padding: 10px 0;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer a{
+  margin: 0 20px;
+  text-decoration: none;
+  color: aliceblue;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.box1{
+  border: 2px solid red;
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+  /* box-sizing: content-box; */
+  margin: auto;
+}
+.box2{
+  border: 2px solid blue;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  box-sizing: content-box;
+  margin: 10px auto;
+}
+
